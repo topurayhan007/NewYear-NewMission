@@ -89,6 +89,14 @@ section{
 
 /* ----------------Sectionwise Styles------------ */
 
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 /* Header Section */
 .header {
     background-image: url('images/banner/banner3.png');
@@ -128,3 +136,42 @@ section{
     width: 416px;
     margin: auto auto auto 0px;
 }
+
+ul {
+    padding-left: 0px;
+}
+
+/* li */
+.list-item {
+    list-style-type: none;
+    padding: 8px 0px;
+}
+
+/* Fontawesome Icon style */
+i {
+    color: #16D887;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+/* Plans Section */
+.plan {
+    text-align: center;
+}
+.plan .section-title {
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-title {
+    margin: 20px auto;
+}
+
+
+/* Skills Section */

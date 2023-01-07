@@ -80,6 +80,7 @@ h4 {
     color: #FFFFFF;
     background: #005FAC;
     border-radius: 8px;
+    border: 0;
 }
 
 section{
@@ -242,6 +243,8 @@ i {
 /* Footer Section */
 .footer {
     background: #151414;
+    display: flex;
+    margin-top: 130px;
     height: 577px;
 }
 
@@ -253,13 +256,33 @@ i {
     margin-right: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 .contact-container {
-    height: 285px;
-    width: 317px;
+    height: 317px;
+    width: 485px;
 }
 
-.contact-title, .contact-sub-title {
+a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.contact-title, .contact-sub-title, .contact .description {
     color: #FFFFFF;
+}
+
+.contact input {
+    width: 325px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding-left: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
 }
